@@ -27,7 +27,7 @@ We also came to the conclusion to randomly assign the other two members the rema
 It was also important that we notified the rest of the group wat we were doing which was through out groupchat on Whatsapp - therefore bringing everyone up to speed
 allowing us to be co - ordinated.
 
-UniDorm Student Subsystem - 19371127
-UniDorm Warden Subsystem - 19330735
-UniDorm Accommodation Office Subsystem - 19345124
-UniDorm Platform Operator Subsystem - 19361046
+UniDorm Student Subsystem - 19371127 <br>
+UniDorm Warden Subsystem - 19330735 <br>
+UniDorm Accommodation Office Subsystem - 19345124 <br>
+UniDorm Platform Operator Subsystem - 19361046 <br>
