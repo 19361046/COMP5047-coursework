@@ -7,7 +7,7 @@
 19330735 |
 19361046 |
 
-# <u>Meeting Records</u>
+# Meeting Records
 
 # Meeting One: Coursework kickstart and setting up GitHub.
 **Date and Time** - 22nd September, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
