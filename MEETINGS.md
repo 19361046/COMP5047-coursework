@@ -24,7 +24,7 @@ how far along we had got within the project and the next stages that need to be 
 
 Us in attendance decided to allocate ourselves the SubSystem that looked most interesting to us and allowed us to display more of our knowledge.
 We also came to the conclusion to randomly assign the other two members the remaining Subsystems therefore allocating the whole project out for the team.
-It was also important that we notified the rest of the group wat we were doing which was through out groupchat on Whatsapp - therefore bringing everyone up to speed
+It was also important that we notified the rest of the group wat we were doing which was through our groupchat on Whatsapp - therefore bringing everyone up to speed
 allowing us to be co - ordinated.
 
 UniDorm Student Subsystem - 19371127 <br>
