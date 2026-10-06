@@ -31,3 +31,13 @@ UniDorm Student Subsystem - 19371127 <br>
 UniDorm Warden Subsystem - 19330735 <br>
 UniDorm Accommodation Office Subsystem - 19345124 <br>
 UniDorm Platform Operator Subsystem - 19361046 <br>
+
+# Meeting Three: Discussions on Individual Work.
+**Date and Time** - 06th October, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Goal** - Discuss the Subsystems further and come to an understanding of how our individual work is going to come together to make a 
+group project <br>
+
+Together as a group we ensured that all of us understood the assignment and what we needed to do. We achieved this by reading through the specification together to
+create a mutual understanding of what was expected of us individually - furthermore we also agreed the best course of action would be 
+to work individually for the time being to create an analysis of our own Subsystems then come together later in the semester to figure out how to incorporate them together so there is a clean overlap in an organic manner for the UniDorm Application to run correctly.
