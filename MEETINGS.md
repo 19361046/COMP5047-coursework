@@ -63,3 +63,10 @@ A very successful week.
 **Goal** - To brainstorm how we could stay more updated for when the individual section of our coursework is done. <br>
 
 As a team we decided that whilst what we are currently doing is effective, there will be a bigger gap in communication once the individual section of this coursework is completed, when the documentation is all written up, the report is drafted, and our ideas are created. They will also need to be communicated and adapted quickly. Ultimately, we need to make more use of our WhatsApp group chat when we are towards the end of the workload. This will be to ensure what we are creating works organically rather that just being four unique subsystems. It needs to be a functioning piece of software design.
+
+# Meeting Severn: Subsystem Integration and Architecture Mapping.
+**Date and Time** - 3rd November, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Goal** - Touch base on individual progress and standardise document formatting ahead of next week's integration phase. <br>
+
+Following last weeks decision to utilise our WhatsApp group more effectively for communication, this weeks session acted as a brief status check to ensure everyone is on track. Rather than introduce more technical concepts to each other, we focused more on just going into more detail about our individual subsystems. We also reviewed the specification and case study again to double check the grading rubric to agree on the way we would format our individual report to link together effectively. This ensures that when we begin merging our subsystems to create an application; it can be streamlined to be done in a shorter amount of time but more effectively thereby giving us more time to focus on our own subsystems. 
