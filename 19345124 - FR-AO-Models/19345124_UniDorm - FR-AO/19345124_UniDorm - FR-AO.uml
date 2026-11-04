@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hm2Y4NhIEfGk5KeiymdRuA" name="19345124_UniDorm - FR-AO">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hm2Y4NhIEfGk5KeiymdRuA" name="19345124_UniDorm - FR-AO">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_HpjHkNhIEfGk5KeiymdRuA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rzwM8NhpEfGtNOeGQbhGAQ" name="Accommodation Office Staff"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4Wgi4NhpEfGtNOeGQbhGAQ" name="University Student Information System (SIS)"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_O1FBsNhqEfGtNOeGQbhGAQ" name="Accommodation Management System" useCase="_dNXV4NhqEfGtNOeGQbhGAQ _UW09kNhrEfGtNOeGQbhGAQ _X2XmkNhrEfGtNOeGQbhGAQ _bMhqENhrEfGtNOeGQbhGAQ _xiY40NhrEfGtNOeGQbhGAQ _ALoaINhsEfGtNOeGQbhGAQ _HSHUoNhsEfGtNOeGQbhGAQ _RlXGENhsEfGtNOeGQbhGAQ _VpBv0NhsEfGtNOeGQbhGAQ _c4rNYNhsEfGtNOeGQbhGAQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dNXV4NhqEfGtNOeGQbhGAQ" name="Defining Application Rules &amp; Quotas" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_UW09kNhrEfGtNOeGQbhGAQ" name="Process and Verify Applications" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_X2XmkNhrEfGtNOeGQbhGAQ" name="Manage Room Transfers" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bMhqENhrEfGtNOeGQbhGAQ" name="Allocate Rooms with AI" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xiY40NhrEfGtNOeGQbhGAQ" name="Set Dynamic Pricing" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ALoaINhsEfGtNOeGQbhGAQ" name="Manage Tenancy Agreements" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HSHUoNhsEfGtNOeGQbhGAQ" name="Manage Maintanance and Contractors" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_RlXGENhsEfGtNOeGQbhGAQ" name="Track Saftey Compliance " subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VpBv0NhsEfGtNOeGQbhGAQ" name="Manage Warden Rosters" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_c4rNYNhsEfGtNOeGQbhGAQ" name="Process Invoices &amp; Deposit Refunds" subject="_O1FBsNhqEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zuKXYNhsEfGtNOeGQbhGAQ" memberEnd="_zuSTMNhsEfGtNOeGQbhGAQ _zuUIYNhsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zuRsINhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zuRsIdhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zuSTMNhsEfGtNOeGQbhGAQ" name="defining application rules &amp; quotas" type="_dNXV4NhqEfGtNOeGQbhGAQ" association="_zuKXYNhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zuUIYNhsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_zuKXYNhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7rR-8NhsEfGtNOeGQbhGAQ" memberEnd="_7rW3cNhsEfGtNOeGQbhGAQ _7rXegNhsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7rWQYNhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7rWQYdhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7rW3cNhsEfGtNOeGQbhGAQ" name="process and verify applications" type="_UW09kNhrEfGtNOeGQbhGAQ" association="_7rR-8NhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7rXegNhsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_7rR-8NhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9AT4MNhsEfGtNOeGQbhGAQ" memberEnd="_9AhTkNhsEfGtNOeGQbhGAQ _9AhTkdhsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9AgsgNhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9AgsgdhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9AhTkNhsEfGtNOeGQbhGAQ" name="manage room transfers" type="_X2XmkNhrEfGtNOeGQbhGAQ" association="_9AT4MNhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9AhTkdhsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_9AT4MNhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9-y5sNhsEfGtNOeGQbhGAQ" memberEnd="_9-19AdhsEfGtNOeGQbhGAQ _9-19AthsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9-1V8NhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9-19ANhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9-19AdhsEfGtNOeGQbhGAQ" name="allocate rooms with ai" type="_bMhqENhrEfGtNOeGQbhGAQ" association="_9-y5sNhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9-19AthsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_9-y5sNhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-o6NsNhsEfGtNOeGQbhGAQ" memberEnd="_-o8C4thsEfGtNOeGQbhGAQ _-o8p8NhsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-o8C4NhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-o8C4dhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-o8C4thsEfGtNOeGQbhGAQ" name="set dynamic pricing" type="_xiY40NhrEfGtNOeGQbhGAQ" association="_-o6NsNhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-o8p8NhsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_-o6NsNhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__Ts3INhsEfGtNOeGQbhGAQ" memberEnd="__T5EYdhsEfGtNOeGQbhGAQ __T5EYthsEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__T4dUNhsEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T5EYNhsEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__T5EYdhsEfGtNOeGQbhGAQ" name="manage tenancy agreements" type="_ALoaINhsEfGtNOeGQbhGAQ" association="__Ts3INhsEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__T5EYthsEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="__Ts3INhsEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ATSr4NhtEfGtNOeGQbhGAQ" memberEnd="_ATVIIdhtEfGtNOeGQbhGAQ _ATVvMNhtEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ATUhENhtEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ATVIINhtEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ATVIIdhtEfGtNOeGQbhGAQ" name="manage maintanance and contractors" type="_HSHUoNhsEfGtNOeGQbhGAQ" association="_ATSr4NhtEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ATVvMNhtEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_ATSr4NhtEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LpvmwNhtEfGtNOeGQbhGAQ" memberEnd="_Lp9CINhtEfGtNOeGQbhGAQ _Lp9pMNhtEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lp70ANhtEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lp8bENhtEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lp9CINhtEfGtNOeGQbhGAQ" name="track saftey compliance " type="_RlXGENhsEfGtNOeGQbhGAQ" association="_LpvmwNhtEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lp9pMNhtEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_LpvmwNhtEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MvWj8NhtEfGtNOeGQbhGAQ" memberEnd="_MvXyEthtEfGtNOeGQbhGAQ _MvYZINhtEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MvXyENhtEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MvXyEdhtEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MvXyEthtEfGtNOeGQbhGAQ" name="manage warden rosters" type="_VpBv0NhsEfGtNOeGQbhGAQ" association="_MvWj8NhtEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MvYZINhtEfGtNOeGQbhGAQ" name="accommodation office staff" type="_rzwM8NhpEfGtNOeGQbhGAQ" association="_MvWj8NhtEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N3tTINhtEfGtNOeGQbhGAQ" memberEnd="_N3wWcdhtEfGtNOeGQbhGAQ _N3wWcthtEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N3vvYNhtEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N3wWcNhtEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N3wWcdhtEfGtNOeGQbhGAQ" name="process invoices &amp; deposit refunds" type="_c4rNYNhsEfGtNOeGQbhGAQ" association="_N3tTINhtEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N3wWcthtEfGtNOeGQbhGAQ" name="accommodation office staff" type="_LpvmwNhtEfGtNOeGQbhGAQ" association="_N3tTINhtEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ao_NQNhtEfGtNOeGQbhGAQ" memberEnd="_apPr8NhtEfGtNOeGQbhGAQ _apPr8dhtEfGtNOeGQbhGAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_apOd0NhtEfGtNOeGQbhGAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_apPE4NhtEfGtNOeGQbhGAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_apPr8NhtEfGtNOeGQbhGAQ" name="process and verify applications" type="_UW09kNhrEfGtNOeGQbhGAQ" association="_ao_NQNhtEfGtNOeGQbhGAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_apPr8dhtEfGtNOeGQbhGAQ" name="university student information system (sis)" type="_4Wgi4NhpEfGtNOeGQbhGAQ" association="_ao_NQNhtEfGtNOeGQbhGAQ"/>
+  </packagedElement>
 </uml:Model>
