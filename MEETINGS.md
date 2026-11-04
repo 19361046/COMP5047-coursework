@@ -44,14 +44,14 @@ to work individually for the time being to create an analysis of our own Subsyst
 
 # Meeting Four: Reviewing Quality Requirements.
 **Date and Time** - 13th October, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
-**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361046 <br>
 **Goal** - Discuss the individual findings of our subsystems. <br>
 
 This weeks meeting was more about ensuring we had all started our individual work as opposed to previous week where we were handing out tasks in the coursework. We had all confirmed that we had started working on the quality requirements of our individual subsystems, agreeing to meet up next week to ensure we had all made progress.
 
 # Meeting Five: Update on Individual Work.
 **Date and Time** - 20th October, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
-**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361046 <br>
 **Goal** - Keep clear communication between the team and update eachother on the individual progress of our work. <br>
 
 This was another individual work week, ensuring we had made progress on our reports. Going through our completed analysis of the Quality Requirements that our Subsystems would need, we found that talking about and discussing it allowed us to recognise what else would need to be added and implemented. Questions from other group members forced us to think about our answers more carefully and allowed for more requirements to be found. <br>
@@ -59,14 +59,14 @@ A very successful week.
 
 # Meeting Six: Reviewing our Communication.
 **Date and Time** - 27th October, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
-**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361046 <br>
 **Goal** - To brainstorm how we could stay more updated for when the individual section of our coursework is done. <br>
 
 As a team we decided that whilst what we are currently doing is effective, there will be a bigger gap in communication once the individual section of this coursework is completed, when the documentation is all written up, the report is drafted, and our ideas are created. They will also need to be communicated and adapted quickly. Ultimately, we need to make more use of our WhatsApp group chat when we are towards the end of the workload. This will be to ensure what we are creating works organically rather that just being four unique subsystems. It needs to be a functioning piece of software design.
 
-# Meeting Severn: Subsystem Integration and Architecture Mapping.
+# Meeting Seven: Subsystem Integration and Architecture Mapping.
 **Date and Time** - 3rd November, 2026 | 12.00pm - 1.00pm (1 Hour) <br>
-**Attendance** - 19345124, 19371127, 19330735, 19361056 <br>
+**Attendance** - 19345124, 19371127, 19330735, 19361046 <br>
 **Goal** - Touch base on individual progress and standardise document formatting ahead of next week's integration phase. <br>
 
 Following last weeks decision to utilise our WhatsApp group more effectively for communication, this weeks session acted as a brief status check to ensure everyone is on track. Rather than introduce more technical concepts to each other, we focused more on just going into more detail about our individual subsystems. We also reviewed the specification and case study again to double check the grading rubric to agree on the way we would format our individual report to link together effectively. This ensures that when we begin merging our subsystems to create an application; it can be streamlined to be done in a shorter amount of time but more effectively thereby giving us more time to focus on our own subsystems. 
