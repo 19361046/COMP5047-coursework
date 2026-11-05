@@ -94,4 +94,31 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_apPr8NhtEfGtNOeGQbhGAQ" name="process and verify applications" type="_UW09kNhrEfGtNOeGQbhGAQ" association="_ao_NQNhtEfGtNOeGQbhGAQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_apPr8dhtEfGtNOeGQbhGAQ" name="university student information system (sis)" type="_4Wgi4NhpEfGtNOeGQbhGAQ" association="_ao_NQNhtEfGtNOeGQbhGAQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_1e01ANhyEfGtNOeGQbhGAQ" name="Activity16" node="_E8r0sNh0EfGtNOeGQbhGAQ _vLM-ANh2EfGtNOeGQbhGAQ _4SU9wNh6EfGtNOeGQbhGAQ _4fC5MNh8EfGtNOeGQbhGAQ _5WgawNh-EfGtNOeGQbhGAQ _6lRT8Nh-EfGtNOeGQbhGAQ _3X6KoNh_EfGtNOeGQbhGAQ _a2e8ENiAEfGtNOeGQbhGAQ _APNtENiBEfGtNOeGQbhGAQ _TUa4kNkfEfGtNOeGQbhGAQ _f-G88NkfEfGtNOeGQbhGAQ" group="_JI82QNhzEfGtNOeGQbhGAQ _TouAwNhzEfGtNOeGQbhGAQ _WAS8INhzEfGtNOeGQbhGAQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZgHVINh3EfGtNOeGQbhGAQ" inPartition="_JI82QNhzEfGtNOeGQbhGAQ" target="_vLM-ANh2EfGtNOeGQbhGAQ" source="_E8r0sNh0EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UeRZoNh8EfGtNOeGQbhGAQ" name="No" inPartition="_JI82QNhzEfGtNOeGQbhGAQ" target="_4SU9wNh6EfGtNOeGQbhGAQ" source="_vLM-ANh2EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mnpu8Nh-EfGtNOeGQbhGAQ" name="Yes" target="_4fC5MNh8EfGtNOeGQbhGAQ" source="_4SU9wNh6EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RQbdQNh_EfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_5WgawNh-EfGtNOeGQbhGAQ" source="_4fC5MNh8EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UJqUMNh_EfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_6lRT8Nh-EfGtNOeGQbhGAQ" source="_4fC5MNh8EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Brn2INiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_3X6KoNh_EfGtNOeGQbhGAQ" source="_5WgawNh-EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EwUWMNiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_3X6KoNh_EfGtNOeGQbhGAQ" source="_6lRT8Nh-EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iA6icNiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_a2e8ENiAEfGtNOeGQbhGAQ" source="_3X6KoNh_EfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PWVdMNiBEfGtNOeGQbhGAQ" target="_APNtENiBEfGtNOeGQbhGAQ" source="_a2e8ENiAEfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Y2Ua4NkfEfGtNOeGQbhGAQ" target="_TUa4kNkfEfGtNOeGQbhGAQ" source="_APNtENiBEfGtNOeGQbhGAQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kXibUNkfEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ" target="_f-G88NkfEfGtNOeGQbhGAQ" source="_TUa4kNkfEfGtNOeGQbhGAQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_JI82QNhzEfGtNOeGQbhGAQ" name="Accommodation Office Staff" node="_E8r0sNh0EfGtNOeGQbhGAQ _vLM-ANh2EfGtNOeGQbhGAQ _4SU9wNh6EfGtNOeGQbhGAQ" edge="_ZgHVINh3EfGtNOeGQbhGAQ _UeRZoNh8EfGtNOeGQbhGAQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_TouAwNhzEfGtNOeGQbhGAQ" name="System" node="_4fC5MNh8EfGtNOeGQbhGAQ _5WgawNh-EfGtNOeGQbhGAQ _6lRT8Nh-EfGtNOeGQbhGAQ _3X6KoNh_EfGtNOeGQbhGAQ _a2e8ENiAEfGtNOeGQbhGAQ _TUa4kNkfEfGtNOeGQbhGAQ _f-G88NkfEfGtNOeGQbhGAQ" edge="_RQbdQNh_EfGtNOeGQbhGAQ _UJqUMNh_EfGtNOeGQbhGAQ _Brn2INiAEfGtNOeGQbhGAQ _EwUWMNiAEfGtNOeGQbhGAQ _iA6icNiAEfGtNOeGQbhGAQ _kXibUNkfEfGtNOeGQbhGAQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_WAS8INhzEfGtNOeGQbhGAQ" name="SIS Database" node="_APNtENiBEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_E8r0sNh0EfGtNOeGQbhGAQ" name="" outgoing="_ZgHVINh3EfGtNOeGQbhGAQ" inPartition="_JI82QNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vLM-ANh2EfGtNOeGQbhGAQ" name="Review Application &amp; Room Avalability" incoming="_ZgHVINh3EfGtNOeGQbhGAQ" outgoing="_UeRZoNh8EfGtNOeGQbhGAQ" inPartition="_JI82QNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_4SU9wNh6EfGtNOeGQbhGAQ" name="Criteria Met" incoming="_UeRZoNh8EfGtNOeGQbhGAQ" outgoing="_mnpu8Nh-EfGtNOeGQbhGAQ" inPartition="_JI82QNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_4fC5MNh8EfGtNOeGQbhGAQ" name="" incoming="_mnpu8Nh-EfGtNOeGQbhGAQ" outgoing="_RQbdQNh_EfGtNOeGQbhGAQ _UJqUMNh_EfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5WgawNh-EfGtNOeGQbhGAQ" name="Allocate Room with AI" incoming="_RQbdQNh_EfGtNOeGQbhGAQ" outgoing="_Brn2INiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6lRT8Nh-EfGtNOeGQbhGAQ" name="Calculate Dynamic Pricing" incoming="_UJqUMNh_EfGtNOeGQbhGAQ" outgoing="_EwUWMNiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_3X6KoNh_EfGtNOeGQbhGAQ" name="" incoming="_Brn2INiAEfGtNOeGQbhGAQ _EwUWMNiAEfGtNOeGQbhGAQ" outgoing="_iA6icNiAEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_a2e8ENiAEfGtNOeGQbhGAQ" name="Generate Tenancy Agreement &amp; Invoice" incoming="_iA6icNiAEfGtNOeGQbhGAQ" outgoing="_PWVdMNiBEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_APNtENiBEfGtNOeGQbhGAQ" name="Update Student Record &amp; Rosters" incoming="_PWVdMNiBEfGtNOeGQbhGAQ" outgoing="_Y2Ua4NkfEfGtNOeGQbhGAQ" inPartition="_WAS8INhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TUa4kNkfEfGtNOeGQbhGAQ" name="Send Confirmation Email" incoming="_Y2Ua4NkfEfGtNOeGQbhGAQ" outgoing="_kXibUNkfEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_f-G88NkfEfGtNOeGQbhGAQ" name="" incoming="_kXibUNkfEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
+  </packagedElement>
 </uml:Model>
