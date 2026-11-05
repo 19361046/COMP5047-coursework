@@ -121,4 +121,22 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_TUa4kNkfEfGtNOeGQbhGAQ" name="Send Confirmation Email" incoming="_Y2Ua4NkfEfGtNOeGQbhGAQ" outgoing="_kXibUNkfEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_f-G88NkfEfGtNOeGQbhGAQ" name="" incoming="_kXibUNkfEfGtNOeGQbhGAQ" inPartition="_TouAwNhzEfGtNOeGQbhGAQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_HEdFUNkrEfGtNOeGQbhGAQ" name="Admissions &amp; Allocation Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_lW-WsNktEfGtNOeGQbhGAQ" client="_HEdFUNkrEfGtNOeGQbhGAQ" supplier="_7EcaoNkrEfGtNOeGQbhGAQ" contract="_7EcaoNkrEfGtNOeGQbhGAQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_sFEmYNktEfGtNOeGQbhGAQ" client="_HEdFUNkrEfGtNOeGQbhGAQ" supplier="_URVEYNktEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_7EcaoNkrEfGtNOeGQbhGAQ" name="IAdmissions"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_URVEYNktEfGtNOeGQbhGAQ" name="ISISIntegration"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_15lNYNktEfGtNOeGQbhGAQ" name="Tenancy &amp; Billing Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RjbeQNkuEfGtNOeGQbhGAQ" client="_15lNYNktEfGtNOeGQbhGAQ" supplier="_-9EAENktEfGtNOeGQbhGAQ" contract="_-9EAENktEfGtNOeGQbhGAQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_TXZ9UNkuEfGtNOeGQbhGAQ" client="_15lNYNktEfGtNOeGQbhGAQ" supplier="_DdZ-wNkuEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_-9EAENktEfGtNOeGQbhGAQ" name="ITenancy"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_DdZ-wNkuEfGtNOeGQbhGAQ" name="IPaymentGateway"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_V1eiQNkuEfGtNOeGQbhGAQ" name="Estate Maintenance Service ">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_wLGLINkuEfGtNOeGQbhGAQ" client="_V1eiQNkuEfGtNOeGQbhGAQ" supplier="_mv2YsNkuEfGtNOeGQbhGAQ" contract="_mv2YsNkuEfGtNOeGQbhGAQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_xbPkYNkuEfGtNOeGQbhGAQ" client="_V1eiQNkuEfGtNOeGQbhGAQ" supplier="_oyYRINkuEfGtNOeGQbhGAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mv2YsNkuEfGtNOeGQbhGAQ" name="IMaintenance"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oyYRINkuEfGtNOeGQbhGAQ" name="IContractorSystem"/>
 </uml:Model>
